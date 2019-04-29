@@ -16,3 +16,18 @@ var age = 38
 // underscores as thousands separators
 // will not change the number, but makes it easier to read
 var population = 8_000_000
+
+// multi-line strings
+// will include line breaks (\n)
+var str1 = """
+This goes over
+multiple
+lines
+"""
+
+// will not include line breaks (use backslash: \)
+var str2 = """
+This goes \
+over multiple \
+lines
+"""
