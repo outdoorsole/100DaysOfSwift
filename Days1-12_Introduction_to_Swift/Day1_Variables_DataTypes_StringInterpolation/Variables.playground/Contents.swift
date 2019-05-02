@@ -31,3 +31,9 @@ This goes \
 over multiple \
 lines
 """
+
+// Swift automatically creates a Double (double-precision floating-point number)
+var pi = 3.141
+
+// Boolean (either true or false)
+var awesome = true
