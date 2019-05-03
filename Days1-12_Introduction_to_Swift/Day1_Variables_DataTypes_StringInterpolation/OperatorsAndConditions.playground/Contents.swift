@@ -4,6 +4,7 @@ import Cocoa
 let firstScore = 12
 let secondScore = 4
 
+// Arithmetic
 // 12 + 4 = 16
 let total = firstScore + secondScore
 
@@ -45,6 +46,10 @@ score -= 5
 
 // Compound assignment operators
 // +, -, *, /, =
+// ** is not a valid operator in Swift
+// can't perform additions using Booleans (false + false is not valid)
+// can't add an Int to a String
+// can't multiply an array
 var quote = "The rain in Spain falls mainly on the "
 quote += "Spaniards"
 
@@ -110,6 +115,7 @@ if firstCard == secondCard {
 
 let weather = "sunny"
 
+// Checking multiple conditions using the same value, use a switch statement
 switch weather {
 case "rain":
     print("Bring an umbrella")
