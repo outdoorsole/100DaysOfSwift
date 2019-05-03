@@ -35,3 +35,12 @@ let secondHalf = ["George", "Ringo"]
 let beatles = firstHalf + secondHalf
 
 // reminder: can't mix types
+
+// Compound assignment operators
+var score = 95
+score -= 5
+
+// Compound assignment operators
+// +, -, *, /, =
+var quote = "The rain in Spain falls mainly on the "
+quote += "Spaniards"
