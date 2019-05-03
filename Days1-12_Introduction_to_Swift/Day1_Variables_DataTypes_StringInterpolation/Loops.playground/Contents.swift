@@ -1,5 +1,10 @@
 import Cocoa
 
+// Loops: repeat code until condition is false
+// Most common is for, which assigns each item to a temporary constant
+// Can use _ so that Swift can skip assigning a value to a constant
+// While loops check an explicit condition
+
 // FOR LOOPS
 // over ranges or arrays
 // for each loop iteration, it will pull one item out and assign it to a constant
@@ -138,4 +143,18 @@ for i in 1...10 {
     
     // only prints the even numbers
     print(i)
+}
+
+// INFINITE LOOPS
+// iPhone apps use infinite loops, because they start running, and continually watch for events until you choose to quit them
+var counter = 0
+
+while true {
+    print(" ")
+    counter += 1
+    
+    // need to have a check to exit the loops
+    if counter == 273 {
+        break
+    }
 }
