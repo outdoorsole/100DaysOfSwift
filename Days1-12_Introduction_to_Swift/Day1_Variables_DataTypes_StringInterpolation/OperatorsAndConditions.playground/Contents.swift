@@ -1,5 +1,6 @@
 import Cocoa
 
+/*
 let firstScore = 12
 let secondScore = 4
 
@@ -17,7 +18,7 @@ let divided = firstScore / secondScore
 
 // 13 % 4 = remainder 1
 let remainder = 13 % secondScore
-
+*/
 
 // Operator overloading
 // + operator to do math
@@ -44,3 +45,22 @@ score -= 5
 // +, -, *, /, =
 var quote = "The rain in Spain falls mainly on the "
 quote += "Spaniards"
+
+let firstScore = 6
+let secondScore = 4
+
+// Checks if values are the same
+firstScore == secondScore
+
+// Checks if values are not the same
+firstScore != secondScore
+
+// Checks if value is less than the other
+firstScore < secondScore
+
+// Checks if value is greater than the other
+firstScore >= secondScore
+
+// Works with strings, because strings have a natural alphabetical order
+// S comes before T, so it is false
+"Taylor" <= "Swift"
