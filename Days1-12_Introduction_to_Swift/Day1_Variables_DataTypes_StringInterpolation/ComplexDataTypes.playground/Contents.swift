@@ -100,3 +100,14 @@ enum Activity {
 }
 
 let talking = Activity.talking(topic: "football")
+
+enum Planet: Int {
+    case mercury = 1
+    case venus
+    case earth
+    case mars
+}
+
+// the enum will start counting at 0, so it will print out "earth" for rawValue 2
+// to start counting at 1, then begin mercury at 1, will print out "venus"
+let earth = Planet(rawValue: 2)
