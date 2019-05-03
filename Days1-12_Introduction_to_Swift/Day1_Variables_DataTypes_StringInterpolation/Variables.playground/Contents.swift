@@ -5,10 +5,10 @@ import Cocoa
 
 // variables: can store program data, and can vary and values can change freely
 // str is of String type
-var str = "Hello, playground"
+//var str = "Hello, playground"
 
 // change the content of the variable
-str = "Goodbye"
+//str = "Goodbye"
 
 // age is of Int type
 var age = 38
@@ -37,3 +37,8 @@ var pi = 3.141
 
 // Boolean (either true or false)
 var awesome = true
+
+var score = 85
+var str = "Your score was \(score)"
+
+var results = "The test results are here: \(str)"
