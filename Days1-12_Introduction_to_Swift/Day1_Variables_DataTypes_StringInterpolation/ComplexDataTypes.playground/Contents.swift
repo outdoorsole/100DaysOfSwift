@@ -17,3 +17,13 @@ let colors = Set(["red", "green", "blue"])
 // duplicates are ignored
 // red, green, blue only
 let colors2 = Set(["red", "green", "blue", "red", "green"])
+
+// Tuples
+// created by placing multiple items into parenthesis
+var name = (first: "Taylor", last: "Swift")
+
+// access
+name.0
+
+// access using name
+name.first
