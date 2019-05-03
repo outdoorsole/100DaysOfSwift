@@ -64,3 +64,16 @@ firstScore >= secondScore
 // Works with strings, because strings have a natural alphabetical order
 // S comes before T, so it is false
 "Taylor" <= "Swift"
+
+
+let firstCard = 11
+let secondCard = 10
+
+// Chained conditions using if, else-if, else
+if firstCard + secondCard == 2 {
+    print("Aces - lucky!")
+} else if firstCard + secondCard == 21 {
+    print("Blackjack!")
+} else {
+    print("Regular cards")
+}
