@@ -76,3 +76,16 @@ var numbers = Set<Int>()
 var scores = Dictionary<String, Int>()
 var results2 = Array<Int>()
 
+// Using enumerations
+let result = "failure"
+// accidental naming
+let result2 = "failed"
+let result3 = "fail"
+
+enum Result {
+    case success
+    case failure
+}
+
+// can choose one of the two values, stops you from accidentally using different strings each time
+let result4 = Result.failure
