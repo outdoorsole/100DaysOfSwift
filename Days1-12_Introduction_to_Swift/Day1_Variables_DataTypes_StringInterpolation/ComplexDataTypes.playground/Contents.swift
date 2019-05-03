@@ -89,3 +89,14 @@ enum Result {
 
 // can choose one of the two values, stops you from accidentally using different strings each time
 let result4 = Result.failure
+
+// can add associated values to an enum attached to the case
+// can represent more nuanced data (can be more precise)
+enum Activity {
+    case bored
+    case running(destination: String)
+    case talking(topic: String)
+    case singing(volume: Int)
+}
+
+let talking = Activity.talking(topic: "football")
