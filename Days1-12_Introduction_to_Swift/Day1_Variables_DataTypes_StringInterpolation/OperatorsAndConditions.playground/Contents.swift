@@ -17,3 +17,21 @@ let divided = firstScore / secondScore
 
 // 13 % 4 = remainder 1
 let remainder = 13 % secondScore
+
+
+// Operator overloading
+// + operator to do math
+let meaningOfLife = 42
+let doubleMeaning = 42 + 42
+
+// + operator join strings too
+let fakers = "Fakers gonna "
+let action = fakers + "fake"
+
+let firstHalf = ["John", "Paul"]
+let secondHalf = ["George", "Ringo"]
+
+// join arrays
+let beatles = firstHalf + secondHalf
+
+// reminder: can't mix types
