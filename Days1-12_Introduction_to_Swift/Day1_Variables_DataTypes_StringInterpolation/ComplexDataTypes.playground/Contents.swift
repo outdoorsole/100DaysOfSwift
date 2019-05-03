@@ -56,3 +56,23 @@ favoriteIceCream["Charlotte"]
 
 // give the dictionary a default value ("Unknown")
 favoriteIceCream["Charlotte", default: "Unknown"]
+
+// Create an empty dictionary
+var teams = [String: String]()
+// Add an item to the dictionary
+teams["Paul"] = "Red"
+
+teams
+
+// Create an empty array to store integers
+var results = [Int]()
+
+// Ways to create an empty set
+var words = Set<String>()
+var numbers = Set<Int>()
+
+// Swift has a special syntax for dictionaries and arrays
+// Ways to declare other types (can use same syntax as creating a set)
+var scores = Dictionary<String, Int>()
+var results2 = Array<Int>()
+
