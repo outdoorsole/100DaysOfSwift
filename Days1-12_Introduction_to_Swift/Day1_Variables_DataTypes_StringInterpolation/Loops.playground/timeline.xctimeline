@@ -3,12 +3,17 @@
    version = "3.0">
    <TimelineItems>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/outdoorsole/dev/paulhudson/new_repo_2019/100DaysOfSwift/Days1-12_Introduction_to_Swift/Day1_Variables_DataTypes_StringInterpolation/Loops.playground#CharacterRangeLen=6&amp;CharacterRangeLoc=726&amp;EndingColumnNumber=11&amp;EndingLineNumber=36&amp;StartingColumnNumber=5&amp;StartingLineNumber=36&amp;Timestamp=578605203.353675"
+         documentLocation = "file:///Users/outdoorsole/dev/paulhudson/new_repo_2019/100DaysOfSwift/Days1-12_Introduction_to_Swift/Day1_Variables_DataTypes_StringInterpolation/Loops.playground#CharacterRangeLen=6&amp;CharacterRangeLoc=726&amp;EndingColumnNumber=11&amp;EndingLineNumber=36&amp;StartingColumnNumber=5&amp;StartingLineNumber=36&amp;Timestamp=578605864.500662"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/outdoorsole/dev/paulhudson/new_repo_2019/100DaysOfSwift/Days1-12_Introduction_to_Swift/Day1_Variables_DataTypes_StringInterpolation/Loops.playground#CharacterRangeLen=13&amp;CharacterRangeLoc=708&amp;EndingColumnNumber=0&amp;EndingLineNumber=36&amp;StartingColumnNumber=5&amp;StartingLineNumber=35&amp;Timestamp=578605203.353881"
+         documentLocation = "file:///Users/outdoorsole/dev/paulhudson/new_repo_2019/100DaysOfSwift/Days1-12_Introduction_to_Swift/Day1_Variables_DataTypes_StringInterpolation/Loops.playground#CharacterRangeLen=13&amp;CharacterRangeLoc=708&amp;EndingColumnNumber=0&amp;EndingLineNumber=36&amp;StartingColumnNumber=5&amp;StartingLineNumber=35&amp;Timestamp=578605864.500864"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/outdoorsole/dev/paulhudson/new_repo_2019/100DaysOfSwift/Days1-12_Introduction_to_Swift/Day1_Variables_DataTypes_StringInterpolation/Loops.playground#CharacterRangeLen=161&amp;CharacterRangeLoc=2250&amp;EndingColumnNumber=0&amp;EndingLineNumber=129&amp;StartingColumnNumber=0&amp;StartingLineNumber=121&amp;Timestamp=578605864.501024"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
