@@ -4,10 +4,21 @@ import Cocoa
 // Arrays: Store items in order (as added), can access using numerical position
 // Sets: store items without an order, can't be accessed using positions
 // Tuples: fixed in size, can attach names to each of the items
+    // can hold any data
+    // can hold multi-line strings
+    // can be constant
+    // can name tuple items
+    // can access tuple items using numerical positions
+    // tuples can have duplicate values
+    // store values together in a single value
+    // because they are fixed in size, they cannot grow like arrays can
+    // can't change types of tuple items
 // Dictionaries: store items according to a key - read items using keys
+    // Unordered, can't be accessed by position
 // Enums: grouping related values to prevent spelling mistakes
     // can add raw values (ints or strings)
     // can add associated values (store additional information about each case)
+    // good for fixed number of things
 
 
 let john = "John Lennon"
@@ -75,6 +86,7 @@ teams["Paul"] = "Red"
 teams
 
 // Create an empty array to store integers
+// Must place parenthesis to initialize
 var results = [Int]()
 
 // Ways to create an empty set
@@ -83,6 +95,7 @@ var numbers = Set<Int>()
 
 // Swift has a special syntax for dictionaries and arrays
 // Ways to declare other types (can use same syntax as creating a set)
+// Need to declare what kind of data it will hold (in <>)
 var scores = Dictionary<String, Int>()
 var results2 = Array<Int>()
 
@@ -118,6 +131,14 @@ enum Planet: Int {
     case mars
 }
 
-// the enum will start counting at 0, so it will print out "earth" for rawValue 2
-// to start counting at 1, then begin mercury at 1, will print out "venus"
+// Creating an enum from its raw value
+    // Raw values are optional
+    // Associated values attach extra data
+    // Raw values are underlying data types for each case (give it a value)
+// the enum will start counting at 0 (automatically), so it will print out "earth" for rawValue 2
+// to start counting at 1, then begin numbering mercury at 1, this will print out "venus"
 let earth = Planet(rawValue: 2)
+
+// will fail, needs an array literal
+// must pass in an array of items rather than just loose integers
+// let earthquakeStrengths = Set(1, 1, 2, 2)
