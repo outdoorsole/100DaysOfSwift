@@ -65,7 +65,7 @@ firstScore >= secondScore
 // S comes before T, so it is false
 "Taylor" <= "Swift"
 
-
+/*
 let firstCard = 11
 let secondCard = 10
 
@@ -77,7 +77,7 @@ if firstCard + secondCard == 2 {
 } else {
     print("Regular cards")
 }
-
+*/
 
 let age1 = 12
 let age2 = 21
@@ -91,4 +91,17 @@ if age1 > 18 && age2 > 18 {
 
 if age1 > 18 || age2 > 18 {
     print("One of them is over 18")
+}
+
+let firstCard = 11
+let secondCard = 10
+
+// will print "Cards are different"
+print(firstCard == secondCard ? "Cards are the same" : "Cards are different")
+
+// same check using a regular condition
+if firstCard == secondCard {
+    print("Cards are the same")
+} else {
+    print("Cards are different")
 }
