@@ -41,4 +41,18 @@ let heights = [
 ]
 
 // Use key to read data from the dictionary
+// [String: Double]
 heights["Taylor Swift"]
+
+let favoriteIceCream = [
+    "Paul": "Chocolate",
+    "Sophie": "Vanilla"
+]
+
+// access a value for the key
+favoriteIceCream["Paul"]
+// trying to access a key that is not in the dictionary
+favoriteIceCream["Charlotte"]
+
+// give the dictionary a default value ("Unknown")
+favoriteIceCream["Charlotte", default: "Unknown"]
