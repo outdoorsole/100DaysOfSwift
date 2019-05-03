@@ -25,3 +25,15 @@ print("Players gonna ")
 for _ in 1...5 {
     print("play")
 }
+
+// WHILE LOOPS
+var number = 1
+
+// write a condition to check
+// loop will go around until the condition fails
+while number <= 20 {
+    print(number)
+    number += 1
+}
+
+print("Ready or not, here I come!")
