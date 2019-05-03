@@ -127,3 +127,15 @@ outerLoop: for i in 1...10 {
 //        }
 //    }
 //}
+
+
+for i in 1...10 {
+    // the number is odd, use continue to skip
+    if i % 2 == 1 {
+        // skip
+        continue
+    }
+    
+    // only prints the even numbers
+    print(i)
+}
