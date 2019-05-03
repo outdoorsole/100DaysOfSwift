@@ -77,3 +77,18 @@ if firstCard + secondCard == 2 {
 } else {
     print("Regular cards")
 }
+
+
+let age1 = 12
+let age2 = 21
+
+// Combining conditions using && and ||
+// if both ages are over 18
+// will not check the second item if the first is false
+if age1 > 18 && age2 > 18 {
+    print("Both are over 18")
+}
+
+if age1 > 18 || age2 > 18 {
+    print("One of them is over 18")
+}
