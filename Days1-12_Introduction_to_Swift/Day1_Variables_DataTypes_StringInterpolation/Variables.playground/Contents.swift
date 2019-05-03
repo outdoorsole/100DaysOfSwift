@@ -46,3 +46,8 @@ var results = "The test results are here: \(str)"
 // constants: set once, never again
 let taylor = "swift"
 
+// explicit type
+let album: String = "Reputation"
+let year: Int = 1989
+let height: Double = 1.78
+let taylorRocks: Bool = true
