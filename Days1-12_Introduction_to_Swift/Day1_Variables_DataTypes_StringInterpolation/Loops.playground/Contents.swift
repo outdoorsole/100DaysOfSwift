@@ -62,3 +62,30 @@ while false {
 repeat {
     print("This is false")
 } while false
+
+var countDown = 10
+
+/*
+counts down from 10 to 0
+ 
+while countDown >= 0 {
+    print(countDown)
+    countDown -= 1
+}
+*/
+
+print("Blast off!")
+
+
+// stops at 4 and breaks out of the while loop
+while countDown >= 0 {
+    print(countDown)
+    
+    if countDown == 4 {
+        print("I'm bored. Let's go now!")
+        break
+    }
+    
+    countDown -= 1
+}
+
