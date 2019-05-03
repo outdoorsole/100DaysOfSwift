@@ -37,9 +37,11 @@ let beatles = firstHalf + secondHalf
 
 // reminder: can't mix types
 
+/*
 // Compound assignment operators
 var score = 95
 score -= 5
+*/
 
 // Compound assignment operators
 // +, -, *, /, =
@@ -118,4 +120,19 @@ case "sunny":
     fallthrough
 default:
     print("Enjoy your day!")
+}
+
+
+// Ranges
+// ..< (creates range up to and excluding the final value)
+// ... (creates ranges up to and including the final value)
+let score = 85
+
+switch score {
+case 0..<50:
+    print("You failed badly.")
+case 50..<85:
+    print("You did OK.")
+default:
+    print("You did great!")
 }
