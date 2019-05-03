@@ -1,5 +1,15 @@
 import Cocoa
 
+// Arrays, sets, tuples and dictionaries: let you store a group of items under a single value
+// Arrays: Store items in order (as added), can access using numerical position
+// Sets: store items without an order, can't be accessed using positions
+// Tuples: fixed in size, can attach names to each of the items
+// Dictionaries: store items according to a key - read items using keys
+// Enums: grouping related values to prevent spelling mistakes
+    // can add raw values (ints or strings)
+    // can add associated values (store additional information about each case)
+
+
 let john = "John Lennon"
 let paul = "Paul McCartney"
 let george = "George Harrison"
