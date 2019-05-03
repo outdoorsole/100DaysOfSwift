@@ -27,3 +27,10 @@ name.0
 
 // access using name
 name.first
+
+// Tuple (fixed position of related values)
+let address = (house: 555, street: "Taylor Swift Avenue", city: "Nashville")
+// Set (no duplicates allowed)
+let set = Set(["aardvark", "astronaut", "azalea"])
+// Array (allows duplicates)
+let pythons = ["Eric", "Graham", "John", "Michael", "Terry", "Terry"]
